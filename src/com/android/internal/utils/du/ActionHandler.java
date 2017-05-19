@@ -770,7 +770,7 @@ public class ActionHandler {
 
         final KeyEvent downEvent = new KeyEvent(now, now, KeyEvent.ACTION_DOWN,
                 keyCode, 0, 0, KeyCharacterMap.VIRTUAL_KEYBOARD, 0,
-                downflags, InputDevice.SOURCE_KEYBOARD);
+                downflags, InputDevice.SOURCE_CUSTOM);
         final KeyEvent upEvent = KeyEvent.changeAction(downEvent, KeyEvent.ACTION_UP);
         final Handler handler = new Handler(Looper.getMainLooper());
 
