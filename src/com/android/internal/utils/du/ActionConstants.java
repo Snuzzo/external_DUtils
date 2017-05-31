@@ -120,7 +120,6 @@ public class ActionConstants {
               + dl(SystemAction.PowerMenu.mAction)   + dl(SystemAction.PowerMenu.mLabelRes) + dl(EMPTY)
 
               + dl(BUTTON5_TAG)
-              + dl(SystemAction.Screenrecord.mAction)       + dl(SystemAction.Screenrecord.mLabelRes)     + dl(EMPTY)
               + dl(SystemAction.KillApp.mAction)   + dl(SystemAction.KillApp.mLabelRes) + dl(EMPTY)
               + dl(SystemAction.ScreenOff.mAction)   + dl(SystemAction.ScreenOff.mLabelRes) + EMPTY;
 */
